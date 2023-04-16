@@ -4,7 +4,7 @@ h2,
 h3,
 h4 {
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 *,
@@ -20,22 +20,33 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.header {
+  padding: 5rem;
+  background-image: url("/img/classroom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 200px;
+}
+.header__inner-box {
+  background-color: #FFF;
+  padding: 1.5rem 2.2rem;
+  border-radius: 25px;
+  opacity: 70%;
+}
+.header__heading {
+  font-weight: 700;
+}
 .nav {
-  position: fixed;
   padding: 2rem;
   background-color: #FFF;
   width: 100%;
   z-index: 100;
-}
-@media only screen and (min-width: 50.625rem) {
-  .nav {
-    position: relative;
-    flex-direction: row-reverse;
-    padding: 1rem;
-    background-color: hsl(0, 0%, 100%);
-    width: 100%;
-    z-index: 100;
-  }
 }
 .nav__inner-container {
   display: flex;
@@ -59,6 +70,18 @@ html {
   width: 90vw;
   border-radius: 4px;
   border: 2px solid black;
+  z-index: 100;
+}
+.nav__left-content {
+  display: flex;
+  gap: 1rem;
+}
+.nav__title {
+  align-self: center;
+  font-weight: 700;
+  font-size: 1.5em;
+  font-family: "Poppins", sans-serif;
+  color: #494949;
 }
 .nav__list {
   padding-top: 1rem;
