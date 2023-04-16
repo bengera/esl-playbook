@@ -41,16 +41,19 @@ body {
 .box__img {
   width: 100%;
 }
-.box__bottom-bar {
+.box__title {
+  display: none;
+}
+.box__button {
+  width: 100%;
+  border: 0;
   background-color: #0D9CC9;
   color: #FFF;
   font-size: 32px;
-  padding: 1rem;
+  padding: 0.5rem;
   font-weight: 400;
   text-align: center;
-}
-.box__button {
-  display: none;
+  cursor: pointer;
 }
 
 .nav {

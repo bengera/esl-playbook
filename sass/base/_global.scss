@@ -49,20 +49,31 @@ main {
   }
 
   &__bottom-bar {
-    background-color: $color-blue;
-    color: $color-white;
-    font-size: 32px;
-    padding:1rem;
-    font-weight: t.$regular;
-    text-align: center;
+    // background-color: $color-blue;
+    // color: $color-white;
+    // font-size: 32px;
+    // padding: 0.5rem;
+    // font-weight: t.$regular;
+    // text-align: center;
+    // cursor: pointer;
   }
 
   &__title {
-    
+    display: none;
   }
 
   &__button {
-    display: none;
+    // display: none;
+    width: 100%;
+    border: 0;
+    background-color: $color-blue;
+    color: $color-white;
+    font-size: 32px;
+    padding: 0.5rem;
+    font-weight: t.$regular;
+    text-align: center;
+    cursor: pointer;
+    
   }
 }
 
