@@ -25,6 +25,11 @@ body {
   overflow-x: hidden;
 }
 
+.content__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
 .content__heading {
   color: #494949;
   font-size: 2.0625em;
@@ -47,13 +52,24 @@ body {
 .box__button {
   width: 100%;
   border: 0;
-  background-color: #0D9CC9;
   color: #FFF;
   font-size: 32px;
   padding: 0.5rem;
   font-weight: 400;
   text-align: center;
   cursor: pointer;
+}
+.box__button.blue {
+  background-color: #0D9CC9;
+}
+.box__button.red {
+  background-color: #F75248;
+}
+.box__button.green {
+  background-color: #16CA98;
+}
+.box__button.yellow {
+  background-color: #F9D100;
 }
 
 .nav {
