@@ -1,0 +1,23 @@
+{
+  "name": "esl-playbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss:watch": "sass --watch sass/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengera/esl-playbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengera/esl-playbook/issues"
+  },
+  "homepage": "https://github.com/bengera/esl-playbook#readme",
+  "devDependencies": {
+    "sass": "^1.62.0"
+  }
+}
