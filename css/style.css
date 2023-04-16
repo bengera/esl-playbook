@@ -25,23 +25,34 @@ body {
   overflow-x: hidden;
 }
 
-.header {
-  padding: 5rem;
-  background-image: url("/img/classroom.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  min-height: 200px;
+.content__heading {
+  color: #494949;
+  font-size: 2.0625em;
+  font-weight: 400;
+  text-align: center;
+  margin: 56px 0;
 }
-.header__inner-box {
-  background-color: #FFF;
-  padding: 1.5rem 2.2rem;
-  border-radius: 25px;
-  opacity: 70%;
+
+.box {
+  border: 1px solid rgb(238, 238, 238);
+  max-width: 350px;
+  margin: 0 auto;
 }
-.header__heading {
-  font-weight: 700;
+.box__img {
+  width: 100%;
 }
+.box__bottom-bar {
+  background-color: #0D9CC9;
+  color: #FFF;
+  font-size: 32px;
+  padding: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+.box__button {
+  display: none;
+}
+
 .nav {
   padding: 2rem;
   background-color: #FFF;
@@ -118,6 +129,26 @@ body {
 .logo {
   height: auto;
   width: 40px;
+}
+
+.header {
+  padding: 5rem 2rem;
+  width: 100%;
+  background-image: url("/img/classroom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header__inner-box {
+  background-color: #FFF;
+  padding: 1rem 2rem;
+  width: 85vw;
+  border-radius: 25px;
+  opacity: 70%;
+  margin: 0 auto;
+}
+.header__heading {
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=style.css.map */

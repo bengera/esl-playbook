@@ -1,0 +1,28 @@
+@use "../abstracts" as *; // imported with folder because of forwards
+@use "../base/typography" as t;
+
+.header {
+  // height:50vh;
+  padding: 5rem 2rem;
+  width: 100%;
+  background-image: url("/img/classroom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__inner-box {
+    background-color: $color-white;
+    padding: 1rem 2rem;
+    width: 85vw;
+    border-radius: 25px;
+    opacity: 70%;
+    margin: 0 auto;
+  }
+
+  &__heading {
+    font-weight: t.$ex-bold;
+  }
+
+  &__tagline {
+  }
+}
