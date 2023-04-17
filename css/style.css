@@ -59,6 +59,11 @@ small {
   margin: 0 auto;
   gap: 2rem;
 }
+@media only screen and (min-width: 43.75rem) {
+  .nav__inner-container {
+    flex-direction: row-reverse;
+  }
+}
 .nav__list-container {
   display: none;
   position: absolute;
@@ -77,14 +82,30 @@ small {
   border: 1px solid rgb(238, 238, 238);
   z-index: 100;
 }
+@media only screen and (min-width: 43.75rem) {
+  .nav__list-container {
+    display: block;
+    width: 65vw;
+    align-self: center;
+    border: 0;
+    margin: 0;
+    background-color: transparent;
+    position: static;
+  }
+}
 .nav__left-content {
   display: flex;
   gap: 1rem;
 }
+@media only screen and (min-width: 43.75rem) {
+  .nav__left-content {
+    min-width: 201px;
+  }
+}
 .nav__title {
   align-self: center;
   font-weight: 700;
-  font-size: 1.5em;
+  font-size: 1em;
   font-family: "Poppins", sans-serif;
   color: #494949;
 }
@@ -93,6 +114,12 @@ small {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+}
+@media only screen and (min-width: 43.75rem) {
+  .nav__list {
+    padding: 0;
+    flex-direction: row;
+  }
 }
 .nav__list-item {
   list-style: none;
@@ -103,6 +130,12 @@ small {
   font-weight: 400;
   text-decoration: none;
   z-index: 2000;
+}
+@media only screen and (min-width: 43.75rem) {
+  .nav__list-link {
+    font-size: 0.9em;
+    color: #000;
+  }
 }
 .nav__cta {
   display: none;
@@ -118,6 +151,11 @@ small {
   background-position: center center;
   z-index: 1000;
 }
+@media only screen and (min-width: 43.75rem) {
+  .nav .hamburger-menu {
+    display: none;
+  }
+}
 
 .hamburger-menu.active {
   background-image: url(../img/icon-close.svg);
@@ -130,6 +168,12 @@ small {
 .logo {
   height: auto;
   width: 40px;
+}
+@media only screen and (min-width: 43.75rem) {
+  .logo {
+    height: 70px;
+    width: 70px;
+  }
 }
 
 .header {
