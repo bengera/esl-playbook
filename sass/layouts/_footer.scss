@@ -1,0 +1,110 @@
+@use "../abstracts" as *; 
+@use "../base/typography" as t;
+
+.footer {
+    background-color: $color-dark-blue;
+    padding: 2rem;
+  
+    &__content {
+      @media only screen and (min-width: $bp-desktop) {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1570px;
+        margin: 0 auto;
+      }
+    }
+  
+    &__logo {
+      width: 40px;
+      @media only screen and (min-width: $bp-desktop) {
+        width: 168px;
+      }
+    }
+  
+    &__social-icons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  
+    &__icon {
+      width: 24px;
+      height: 24px;
+      cursor: pointer;
+  
+      @media only screen and (min-width: $bp-desktop) {
+        width: 20px;
+        height: 20px;
+      }
+    }
+  
+    &__col-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  
+      @media only screen and (min-width: $bp-desktop) {
+        justify-content: center;
+        height: 145px;
+        
+      }
+    }
+  
+    &__title {
+      color: $color-white;
+      font-weight: t.$bold;
+      margin-top: 1rem;
+    }
+  
+    &__col-2 {
+      @media only screen and (min-width: $bp-desktop) {
+        margin-right: 4rem;
+      }
+    }
+  
+    &__list {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-top: 2rem;
+  
+      @media only screen and (min-width: $bp-desktop) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4.9rem;
+      }
+    }
+  
+    &__list-item {
+      list-style: none;
+      
+    }
+  
+    &__list-link {
+      color: $color-white;
+      font-weight: t.$regular;
+      font-size: 0.938rem;
+      text-decoration: none;
+      @include transition;
+  
+      &:hover {
+        color: #30c88f;
+      }
+    }
+  
+    &__col-3 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      align-items: center;
+      gap: 1rem;
+  
+      @media only screen and (min-width: $bp-desktop) {
+        margin-top: 0;
+        justify-content: center;
+      }
+    }
+  
+    
+  }

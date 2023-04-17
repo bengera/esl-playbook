@@ -1,11 +1,13 @@
 const hamMenu = document.querySelector('.hamburger-menu');
 const navigation = document.querySelector('.nav__list-container');
-
+const overlay = document.querySelector('.overlay');
 
 hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
     navigation.classList.toggle('show');
+    overlay.classList.toggle('show');
     
+
     if (navigation.classList.contains('show')) {
         navigation.classList.add('fade-in');
         setTimeout(() => {
