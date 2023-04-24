@@ -47,7 +47,7 @@ small {
 
 .nav {
   position: relative;
-  padding: 2rem;
+  padding: 1.5rem;
   background-color: #FFF;
   width: 100%;
   z-index: 100;
@@ -62,6 +62,12 @@ small {
 @media only screen and (min-width: 43.75rem) {
   .nav__inner-container {
     flex-direction: row-reverse;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .nav__inner-container {
+    max-width: 1100px;
+    border: 0;
   }
 }
 .nav__list-container {
@@ -91,6 +97,12 @@ small {
     margin: 0;
     background-color: transparent;
     position: static;
+  }
+}
+@media only screen and (min-width: 68.125rem) {
+  .nav__list-container {
+    text-align: right;
+    margin-left: 19rem;
   }
 }
 .nav__left-content {
@@ -171,8 +183,8 @@ small {
 }
 @media only screen and (min-width: 43.75rem) {
   .logo {
-    height: 70px;
-    width: 70px;
+    height: 45px;
+    width: 45px;
   }
 }
 
@@ -279,7 +291,7 @@ small {
   background-color: hsl(233, 26%, 24%);
   padding: 2rem;
 }
-@media only screen and (min-width: 50.625rem) {
+@media only screen and (min-width: 68.125rem) {
   .footer__content {
     display: flex;
     justify-content: space-around;
@@ -300,7 +312,7 @@ small {
   height: 24px;
   cursor: pointer;
 }
-@media only screen and (min-width: 50.625rem) {
+@media only screen and (min-width: 68.125rem) {
   .footer__icon {
     width: 20px;
     height: 20px;
@@ -316,7 +328,7 @@ small {
     margin-right: 2rem;
   }
 }
-@media only screen and (min-width: 50.625rem) {
+@media only screen and (min-width: 68.125rem) {
   .footer__col-1 {
     justify-content: center;
     height: 145px;
@@ -327,7 +339,7 @@ small {
   font-weight: 500;
   margin-top: 1rem;
 }
-@media only screen and (min-width: 50.625rem) {
+@media only screen and (min-width: 68.125rem) {
   .footer__col-2 {
     margin-right: 4rem;
   }
@@ -339,7 +351,7 @@ small {
   gap: 0.5rem;
   margin-top: 2rem;
 }
-@media only screen and (min-width: 50.625rem) {
+@media only screen and (min-width: 68.125rem) {
   .footer__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -366,7 +378,7 @@ small {
   align-items: center;
   gap: 1rem;
 }
-@media only screen and (min-width: 50.625rem) {
+@media only screen and (min-width: 68.125rem) {
   .footer__col-3 {
     margin-top: 0;
     justify-content: center;

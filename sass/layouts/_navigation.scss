@@ -8,7 +8,6 @@
   background-color: $color-white;
   width: 100%;
   z-index: 100;
-  
 
   // @media only screen and (min-width: $bp-desktop) {
   //   position: relative;
@@ -28,6 +27,11 @@
 
     @media only screen and (min-width: $bp-tablet) {
       flex-direction: row-reverse;
+    }
+
+    @media only screen and (min-width: $bp-desktop) {
+      max-width: 1100px;
+      border: 0;
     }
 
     // @media only screen and (min-width: $bp-desktop) {
@@ -66,6 +70,11 @@
       position: static;
     }
 
+    @media only screen and (min-width: $bp-desktop) {
+      text-align: right;
+      margin-left: 19rem;
+    }
+
     // @media only screen and (min-width: $bp-desktop) {
     //   display: block;
     //   position: static;
@@ -83,7 +92,6 @@
 
     @media only screen and (min-width: $bp-tablet) {
       min-width: 201px;
-      
     }
   }
 
@@ -194,6 +202,8 @@
 
 .nav__list-container.show {
   display: block;
+
+ 
 }
 
 .logo {
@@ -201,8 +211,8 @@
   width: 40px;
 
   @media only screen and (min-width: $bp-tablet) {
-    height: 70px;
-    width: 70px;
+    height: 45px;
+    width: 45px;
   }
 }
 
