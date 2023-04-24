@@ -144,6 +144,13 @@
       color: $color-black;
     }
 
+
+    
+    @media only screen and (min-width: $bp-desktop) {
+      &:hover {
+        color: $color-green-links;
+      }
+    }
     // @media only screen and (min-width: $bp-desktop) {
     //   font-size: 0.875rem;
     //   color: $color-grayish-blue;
