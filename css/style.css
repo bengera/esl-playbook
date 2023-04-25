@@ -257,11 +257,18 @@ small {
   text-align: center;
   margin: 56px 0;
 }
+@media only screen and (min-width: 68.125rem) {
+  .content__heading {
+    font-size: 2.5em;
+    font-weight: bold;
+  }
+}
 
 .box {
   border: 1px solid rgb(238, 238, 238);
   max-width: 350px;
   margin: 0 auto;
+  transition: all 0.2s ease-in-out;
 }
 .box__img {
   width: 100%;
@@ -278,6 +285,11 @@ small {
   font-weight: 400;
   text-align: center;
   cursor: pointer;
+}
+@media only screen and (min-width: 68.125rem) {
+  .box__button:hover {
+    opacity: 70%;
+  }
 }
 .box__button.blue {
   background-color: #0D9CC9;
@@ -327,11 +339,6 @@ small {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-@media only screen and (min-width: 43.75rem) {
-  .footer__col-1 {
-    margin-right: 2rem;
-  }
 }
 @media only screen and (min-width: 68.125rem) {
   .footer__col-1 {
