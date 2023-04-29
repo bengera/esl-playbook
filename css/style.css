@@ -117,7 +117,9 @@ small {
 .nav__title {
   align-self: center;
   font-weight: 700;
-  font-size: 1em;
+  font-size: 1.25em;
+  text-align: center;
+  margin-top: 1rem;
   font-family: "Poppins", sans-serif;
   color: #494949;
 }
