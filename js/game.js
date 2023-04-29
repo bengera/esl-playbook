@@ -18,7 +18,12 @@ const cardDataGame =  [{
         description: "A fun an very enganging way to practice or review vocabulary, students have to stand and shout out words, keeps everyone on their toes",
         icon: 'img/stand.png'
     },
-
+    {
+        title: "Boards and Bells",
+        type: "Reading",
+        description: "An engaging way to check reading comprehension using a miniboard and bells",
+        icon: 'img/bell.png'
+    },
 
     
    
