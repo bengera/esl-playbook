@@ -3,6 +3,9 @@
 
 .content {
   margin-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
 
   &__container {
     display: flex;
@@ -43,8 +46,7 @@
     &:hover {
       // transform: skew(10deg, 10deg);
     }
-    
-   }
+  }
 
   &__img {
     width: 100%;
@@ -65,7 +67,6 @@
   }
 
   &__button {
-    
     width: 100%;
     border: 0;
     color: $color-white;
@@ -75,18 +76,15 @@
     text-align: center;
     cursor: pointer;
 
-    
-@media only screen and (min-width: $bp-desktop) {
-     &:hover {
-      opacity: 70%;
-      
-     }
-}
+    @media only screen and (min-width: $bp-desktop) {
+      &:hover {
+        opacity: 70%;
+      }
+    }
   }
 
   &__button.blue {
     background-color: $color-blue;
-    
   }
 
   &__button.red {
@@ -100,4 +98,59 @@
   &__button.yellow {
     background-color: $color-yellow;
   }
+}
+
+// CARDS
+
+.card {
+  width: 350px;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  padding: 2rem;
+  //TEMP
+  margin: 0 auto;
+
+  &__top {
+    display: flex;
+  }
+
+  &__icon {
+    border: 1px solid #bbb;
+    border-radius: 15px;
+    width: 100px;
+  }
+
+  &__top-text {
+    padding: 1rem;
+    font-weight: t.$regular;
+  }
+
+  &__title {
+    font-size: 20px;
+  }
+
+  &__type {
+  }
+
+  &__bottom {
+  }
+
+  &__description {
+    font-weight: t.$thin;
+    padding: 1rem 0;
+  }
+
+  &__btn-more {
+    padding: 1rem 2.5rem;
+    font-size: 20px;
+    font-weight: t.$ex-bold;
+    color: $color-white;
+    background-color: $color-blue;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+}
+
+.card__btn-more.card-blue {
 }

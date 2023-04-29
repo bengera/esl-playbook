@@ -235,6 +235,9 @@ small {
 
 .content {
   margin-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
 }
 .content__container {
   display: flex;
@@ -302,6 +305,43 @@ small {
 }
 .box__button.yellow {
   background-color: #F9D100;
+}
+
+.card {
+  width: 350px;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+.card__top {
+  display: flex;
+}
+.card__icon {
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  width: 100px;
+}
+.card__top-text {
+  padding: 1rem;
+  font-weight: 400;
+}
+.card__title {
+  font-size: 20px;
+}
+.card__description {
+  font-weight: 300;
+  padding: 1rem 0;
+}
+.card__btn-more {
+  padding: 1rem 2.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+  background-color: #0D9CC9;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
 }
 
 .footer {
