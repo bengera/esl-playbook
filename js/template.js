@@ -10,7 +10,7 @@ export function cardTemplate(card) {
     </div>
     <div class="card__bottom">
         <p class="card__description">${card.description}</p>
-        <button class="card__btn-more card-blue">See more</button>
+        <button class="card__btn-more card-blue" data-modal="${card.modal}">See more</button>
     </div>
 </div>
     `

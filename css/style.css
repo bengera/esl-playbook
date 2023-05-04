@@ -25,6 +25,10 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  position: relative;
+}
+
 small {
   color: #BBB;
 }
@@ -118,8 +122,6 @@ small {
   align-self: center;
   font-weight: 700;
   font-size: 1.25em;
-  text-align: center;
-  margin-top: 1rem;
   font-family: "Poppins", sans-serif;
   color: #494949;
 }
@@ -240,6 +242,7 @@ small {
   display: flex;
   gap: 2rem;
   flex-direction: column;
+  padding: 2rem;
 }
 .content__container {
   display: flex;
@@ -310,7 +313,8 @@ small {
 }
 
 .card {
-  width: 350px;
+  min-width: 350px;
+  max-width: 700px;
   border: 1px solid #bbb;
   border-radius: 15px;
   padding: 2rem;
@@ -334,6 +338,7 @@ small {
 .card__description {
   font-weight: 300;
   padding: 1rem 0;
+  margin-bottom: 1rem;
 }
 .card__btn-more {
   padding: 1rem 2.5rem;
@@ -341,6 +346,76 @@ small {
   font-weight: 700;
   color: #FFF;
   background-color: #0D9CC9;
+  border: 0;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 20px;
+  color: hsl(233, 26%, 24%);
+}
+
+.bold-span {
+  font-weight: 700;
+}
+
+.modal {
+  width: 371px;
+  min-width: 350px;
+  max-width: 700px;
+  border: 1px solid #bbb;
+  border-radius: 15px;
+  padding: 2rem;
+  margin: 0 auto;
+  background-color: #FFF;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 3rem;
+}
+.modal__content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 300;
+}
+.modal__icon {
+  width: 70px;
+}
+.modal__top {
+  display: flex;
+  gap: 1rem;
+}
+.modal__btn-close {
+  background: url(/img/icons8-close-30.svg);
+  background-repeat: no-repeat;
+  background-position-y: 18px;
+  width: 30px;
+  border: 0;
+  cursor: pointer;
+}
+.modal__title {
+  align-self: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.modal__buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.modal__btn-template, .modal__btn-powerpoint {
+  padding: 1rem 2.5rem;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #0d9cc9;
   border: 0;
   border-radius: 15px;
   cursor: pointer;

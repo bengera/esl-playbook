@@ -10,12 +10,12 @@ class Navigation extends HTMLElement {
     <div class="nav__inner-container">
      <div class="nav__list-container">
     <ul class="nav__list">
-      <li class="nav__list-item"><a href="#" class="nav__list-link">Home</a></li>
-      <li class="nav__list-item"><a href="#" class="nav__list-link">About</a></li>
-      <li class="nav__list-item"><a href="#" class="nav__list-link">Games</a></li>
-      <li class="nav__list-item"><a href="#" class="nav__list-link">Activities</a></li>
-      <li class="nav__list-item"><a href="#" class="nav__list-link">Management</a></li>
-      <li class="nav__list-item"><a href="#" class="nav__list-link">Extras</a></li>
+      <li class="nav__list-item"><a href="index.html" class="nav__list-link">Home</a></li>
+      <li class="nav__list-item"><a href="about.html" class="nav__list-link">About</a></li>
+      <li class="nav__list-item"><a href="games.html" class="nav__list-link">Games</a></li>
+      <li class="nav__list-item"><a href="activities.html" class="nav__list-link">Activities</a></li>
+      <li class="nav__list-item"><a href="management.html" class="nav__list-link">Management</a></li>
+      <li class="nav__list-item"><a href="extras" class="nav__list-link">Extras</a></li>
 
     </ul>
   </div>
