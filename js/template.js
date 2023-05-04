@@ -15,3 +15,4 @@ export function cardTemplate(card) {
 </div>
     `
 }
+

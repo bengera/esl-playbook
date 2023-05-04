@@ -4,7 +4,7 @@ export function modalTemplate(modal) {
     <div class="modal">
       <div class="modal__content">
          <div class="modal__top">
-            <img src="${modal.icon}" alt="icon" class="modal__icon">
+            <img src= "${modal.icon}" alt="icon" class="modal__icon">
             <p id="title" class="modal__title">${modal.title}</p>
             <button class="modal__btn-close"></button>
          </div>

@@ -411,7 +411,7 @@ small {
   gap: 1rem;
 }
 .modal__btn-template, .modal__btn-powerpoint {
-  padding: 1rem 2.5rem;
+  padding: 1rem;
   font-size: 20px;
   font-weight: 700;
   color: #fff;
@@ -419,6 +419,7 @@ small {
   border: 0;
   border-radius: 15px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .footer {
