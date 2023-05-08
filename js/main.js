@@ -30,17 +30,17 @@ document.addEventListener('click', function(event) {
         document.getElementById('modal').style.display = 'block'; 
 
       // Get the value of the data-modal attribute
-      const modalId = event.target.dataset.modal;
+    //   const modalId = event.target.dataset.modal;
   
-      // Find the corresponding modal object in modalGameData
-      const modalData = modalGameData.find(modal => modal.title === modalId);
+    //   // Find the corresponding modal object in modalGameData
+    //   const modalData = modalGameData.find(modal => modal.title === modalId);
   
-      // Create the modal HTML using the modalTemplate function
-      const modalHtml = modalTemplate(modalData);
+    //   // Create the modal HTML using the modalTemplate function
+    //   const modalHtml = modalTemplate(modalData);
   
-      // Add the modal HTML to the modal container element
-      const modalContainer = document.getElementById('modal-container');
-      modalContainer.innerHTML = modalHtml;
+    //   // Add the modal HTML to the modal container element
+    //   const modalContainer = document.getElementById('modal-container');
+    //   modalContainer.innerHTML = modalHtml;
     }
   });
   

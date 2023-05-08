@@ -4,7 +4,7 @@ const cardDataGame =  [{
         title: "Secret Zombie",
         type: "Speaking",
         description: "In this game students will practice target conversation language in a fun and interactive way, this is a very popular game for younger learners and one they often request to play again.",
-        icon: 'https://github.com/bengera/esl-playbook/blob/main/img/zombie.PNG?raw=true',
+        icon: 'img/zombie.png'
         
     },
     {
