@@ -1,6 +1,6 @@
 const modalGameData =  [{
     title: 'Secret Zombie',
-    icon: 'img/zombie.png',
+    icon: 'img/zombie.svg',
     overview: 'In this game students will practice target conversation language in a fun and interactive way, this is a very popular game for younger learners and one they often request to play again.',
     preparation: 'arrange an area to act as a safe Zone, make space for students to mingle',
     materials: '3 different colored markers',

@@ -4,7 +4,7 @@ const cardDataGame =  [{
         title: "Secret Zombie",
         type: "Speaking",
         description: "In this game students will practice target conversation language in a fun and interactive way, this is a very popular game for younger learners and one they often request to play again.",
-        icon: 'img/zombie.png'
+        icon: 'img/zombie.svg'
         
     },
     {
@@ -17,13 +17,13 @@ const cardDataGame =  [{
         title: "Stand and say",
         type: "Speaking",
         description: "A fun an very enganging way to practice or review vocabulary, students have to stand and shout out words, keeps everyone on their toes",
-        icon: 'img/stand.png'
+        icon: 'img/stand.svg'
     },
     {
         title: "Boards and Bells",
         type: "Reading",
         description: "An engaging way to check reading comprehension using a miniboard and bells",
-        icon: 'img/bell.png'
+        icon: 'img/bell.svg'
     },
 
     
