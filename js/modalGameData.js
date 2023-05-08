@@ -27,19 +27,3 @@ ${modalGameData.map(modalTemplate).join('')}
 
 `
 
-// function openModal(modalData) {
-//     const modalHtml = modalTemplate(modalData);
-//     const modalContainer = document.querySelector('.modal-container');
-//     modalContainer.innerHTML = modalHtml;
-//     modalContainer.classList.add('active');
-//   }
-  
-//   document.addEventListener('click', (event) => {
-//     const seeMoreButton = event.target.closest('.card__btn-more');
-//     if (seeMoreButton) {
-//       const modalIndex = seeMoreButton.dataset.modalIndex;
-//       const modalData = modalGameData[modalIndex];
-//       openModal(modalData);
-//     }
-//   });
-  
