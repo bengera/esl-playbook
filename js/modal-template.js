@@ -1,7 +1,6 @@
 export function modalTemplate(modal) {
     return `
-    
-    
+       
       <div class="modal__content">
          <div class="modal__top">
             <img src= "${modal.icon}" alt="icon" class="modal__icon">

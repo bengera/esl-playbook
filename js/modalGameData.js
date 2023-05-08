@@ -11,6 +11,19 @@ const modalGameData =  [{
     downloadPowerpoint: 'docs/zombie.ppt'
 
 },
+{
+    title: 'Bluff',
+    icon: 'img/spy.svg',
+    overview: 'In this game students will answer some basic questions, this is a game based on bluff. Students will have to ask furthur questions to determine who is lying and who is telling the truth',
+    preparation: 'Put the class into 2-4 teams',
+    materials: '3 miniboards and markers',
+    size: 'Any',
+    instruction: '3 students will come to the front of the class',
+    tweaks: 'Give the students a list of questions they can ask if they are weak',
+    downloadTemplate: 'docs/bluff.pdf',
+    downloadPowerpoint: 'docs/bluff.ppt'
+},
+
 
 
 
