@@ -177,6 +177,7 @@
   visibility: hidden;
   z-index: 100;
   width: 371px;
+  height: 600px;
   min-width: 350px;
   max-width: 700px;
   border: 1px solid #bbb;
@@ -192,6 +193,8 @@
   left: 0;
   right: 0;
   top: 3rem;
+
+  overflow-y: scroll;
 
   &__content {
     display: none;

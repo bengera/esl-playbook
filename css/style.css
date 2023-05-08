@@ -367,6 +367,7 @@ small {
   visibility: hidden;
   z-index: 100;
   width: 371px;
+  height: 600px;
   min-width: 350px;
   max-width: 700px;
   border: 1px solid #bbb;
@@ -380,6 +381,7 @@ small {
   left: 0;
   right: 0;
   top: 3rem;
+  overflow-y: scroll;
 }
 .modal__content {
   display: none;
