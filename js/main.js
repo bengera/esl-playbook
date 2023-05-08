@@ -1,7 +1,10 @@
 const hamMenu = document.querySelector('.hamburger-menu');
 const navigation = document.querySelector('.nav__list-container');
 const overlay = document.querySelector('.overlay');
-const modalContainer = document.getElementById('modal');
+const modalContainer = document.querySelector('.modal');
+
+
+
 
 hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
@@ -22,12 +25,21 @@ hamMenu.addEventListener('click', () => {
     }
 });
 
+// CLOSE MODAL BUTTON
+document.addEventListener('DOMContentLoaded', () => {
+const modalClose = document.querySelector('.modal__btn-close');
+modalClose.addEventListener('click', () => {
+    console.log('closeModalPopUp');
+    overlay.classList.toggle('show');
+});
+});
+
 // MODAL BUTTON LISTENER
 
 
 document.addEventListener('click', function(event) {
     if (event.target.classList.contains('card__btn-more')) {  
-        document.querySelector('.modal').style.visibility = 'visible';  
+        modalContainer.style.visibility = 'visible';  
         document.querySelector('.modal__content').style.display = 'flex'; 
         overlay.classList.add('show');
 
