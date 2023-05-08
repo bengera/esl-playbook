@@ -3,9 +3,6 @@ const navigation = document.querySelector('.nav__list-container');
 const overlay = document.querySelector('.overlay');
 const modalContainer = document.querySelector('.modal');
 
-
-
-
 hamMenu.addEventListener('click', () => {
     hamMenu.classList.toggle('active');
     navigation.classList.toggle('show');
@@ -31,6 +28,7 @@ const modalClose = document.querySelector('.modal__btn-close');
 modalClose.addEventListener('click', () => {
     console.log('closeModalPopUp');
     overlay.classList.toggle('show');
+    modalContainer.style.visibility = 'hidden'; 
 });
 });
 
