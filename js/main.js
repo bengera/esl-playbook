@@ -26,8 +26,10 @@ hamMenu.addEventListener('click', () => {
 
 
 document.addEventListener('click', function(event) {
-    if (event.target.classList.contains('card__btn-more')) {    
-        document.getElementById('modal').style.display = 'block'; 
+    if (event.target.classList.contains('card__btn-more')) {  
+        document.querySelector('.modal').style.visibility = 'visible';  
+        document.querySelector('.modal__content').style.display = 'flex'; 
+        
 
       // Get the value of the data-modal attribute
     //   const modalId = event.target.dataset.modal;

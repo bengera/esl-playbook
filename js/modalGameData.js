@@ -22,7 +22,7 @@ const modalGameData =  [{
 
 import {modalTemplate} from './modal-template.js';
 
-document.getElementById("modal").innerHTML = `
+document.querySelector(".modal").innerHTML = `
 ${modalGameData.map(modalTemplate).join('')}
 
 `

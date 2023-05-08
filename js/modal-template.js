@@ -1,7 +1,7 @@
 export function modalTemplate(modal) {
     return `
     
-    <div class="modal">
+    
       <div class="modal__content">
          <div class="modal__top">
             <img src= "${modal.icon}" alt="icon" class="modal__icon">
@@ -19,7 +19,7 @@ export function modalTemplate(modal) {
           <a href="${modal.downloadPowerpoint}" class="modal__btn-powerpoint" id="btn-template">Download powerpoint</a>
           </div>
       </div>
-    </div>
+    
     
     `
 }

@@ -364,6 +364,7 @@ small {
 }
 
 .modal {
+  visibility: hidden;
   width: 371px;
   min-width: 350px;
   max-width: 700px;
@@ -380,7 +381,7 @@ small {
   top: 3rem;
 }
 .modal__content {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 1rem;
   font-weight: 300;
